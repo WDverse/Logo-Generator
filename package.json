@@ -17,7 +17,7 @@
   "author": "Emmanuel Appiagyei",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.10"
+    "inquirer": "^8.2.6"
   },
   "devDependencies": {
     "jest": "^29.6.4",
