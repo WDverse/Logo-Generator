@@ -1,3 +1,4 @@
+const inquirer = require('inquirer');
 const fs = require("fs");
 const shapes = require("./lib/shapes");
 const questions = require("./lib/questions");
@@ -10,5 +11,6 @@ function createLogo({ text, textColor, shape, shapeColor }) {
         return new Circle(text, textColor, shape, shapeColor);
     case "Square":
         return new Circle(text, textColor, shape, shapeColor);
+    default:
   }
 }
