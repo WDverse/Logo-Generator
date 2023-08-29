@@ -23,4 +23,4 @@ function createLogo() {
 
 createLogo();
 
-// Once you are calling the function then the issue you're going to encounter is the terminal ends immediately after displaying the questions. This is because the createLogo function is asynchronous, but you're not waiting for it to complete before the Node.js process exits. You need to wait for the createLogo function to finish before allowing the script to exit. You can achieve this by using await or .then().
+
