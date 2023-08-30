@@ -8,6 +8,7 @@ function createLogo() {
     const { text, textColor, shape, shapeColor } = answers;
 
     switch (shape) {
+      // assign each shape to the same variable name and return it outside of the switch statement.
       case "Circle":
         return new Circle(text, textColor, shape, shapeColor);
       case "Triangle":
@@ -18,15 +19,15 @@ function createLogo() {
         throw new Error("Invalid shape!");
     }
   });
+  writeToFile(filename, answers);
 }
 
-// function writeToFile(filename, svg) {
-//   // const filename = `logo.svg`;
-//   fs.writeFile(filename, userQuestions(data), (err) =>
-//     err ? console.log(err) : console.log(`${filename} created!`)
-//   );
-// }
+const filename = `logo.svg`;
+
+function writeToFile(filename, answers) {
+  fs.writeFile(filename, userQuestions(answers), (err) =>
+  err ? console.log(err) : console.log(`${filename} created!`)
+  );
+}
 
 createLogo();
-
-// writeToFile();
