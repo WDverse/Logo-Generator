@@ -19,15 +19,15 @@ function createLogo() {
         throw new Error("Invalid shape!");
     }
   });
-  writeToFile(filename, answers);
+  // writeToFile(filename, answers);
 }
 
 const filename = `logo.svg`;
 
-function writeToFile(filename, answers) {
-  fs.writeFile(filename, userQuestions(answers), (err) =>
-  err ? console.log(err) : console.log(`${filename} created!`)
-  );
-}
+// function writeToFile(filename, answers) {
+//   fs.writeFile(filename, userQuestions(answers), (err) =>
+//   err ? console.log(err) : console.log(`${filename} created!`)
+//   );
+// }
 
 createLogo();
