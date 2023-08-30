@@ -1,11 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const { Circle, Triangle, Square } = require("./lib/shapes");
-const questions = require("./lib/questions");
+const { userQuestions } = require("./lib/questions");
 
 function createLogo() {
-  inquirer.prompt(questions.userQuestions())
-  .then((answers) => {
+  inquirer.prompt(userQuestions()).then((answers) => {
     const { text, textColor, shape, shapeColor } = answers;
 
     switch (shape) {
@@ -21,6 +20,13 @@ function createLogo() {
   });
 }
 
+// function writeToFile(filename, svg) {
+//   // const filename = `logo.svg`;
+//   fs.writeFile(filename, userQuestions(data), (err) =>
+//     err ? console.log(err) : console.log(`${filename} created!`)
+//   );
+// }
+
 createLogo();
 
-
+// writeToFile();
