@@ -22,7 +22,8 @@ async function createLogo() {
       throw new Error("Invalid shape!");
   }
   writeFile("logo.svg", finalShape.render());
-  console.log(finalShape.render());
+  console.log("\n");
+  console.log("SVG Logo Created!");
 }
 
 createLogo();
