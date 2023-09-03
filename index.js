@@ -35,6 +35,7 @@ async function createLogo() {
   // Display a success message to the user.
   console.log("\n");
   console.log("Generated logo.svg");
+  console.log("\n");
 }
 
 // Call the createLogo function to initiate logo creation based on user input.
