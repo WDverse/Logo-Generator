@@ -1,4 +1,4 @@
-<svg width="500" height="500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <circle cx="200" cy="100" r="100" fill="darkmagenta"/>
     <text x="200" y="130" text-anchor="middle" font-size="90" fill="white">SVG</text>
   </svg>
