@@ -54,7 +54,7 @@ Dane Shrewsbury
 
 The following video shows the application's functionality:  
 
-[Walkthrough Video](https://watch.screencastify.com/v/IMkVf3vckStUpXlSnjtd)
+[Walkthrough Video](https://watch.screencastify.com/v/uyhtclxsuKuH7qBJFFY1)
 
 ## References
 
