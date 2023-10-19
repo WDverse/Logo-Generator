@@ -16,6 +16,8 @@ This is a Node.js command-line application that takes in user input to generate 
 
 - [Tests](#tests)
 
+- [Deployment](#deployment)
+
 - [References](#references)
 
 ## Installation
@@ -28,11 +30,13 @@ npm install
 
 ## Usage
 
-To run tests, run:
+First, clone the repository. And run:
 
 ```
-npm run test
+npm i
 ```
+
+to install all dependencies.
 
 To run the application, run:
 
@@ -52,12 +56,20 @@ Dane Shrewsbury
 
 ## Tests
 
-The following video shows the application's functionality:  
+To run tests, run:
+
+```
+npm run test
+```
+
+## Deployment
+
+The following video shows the application's functionality:
 
 [Walkthrough Video](https://watch.screencastify.com/v/uyhtclxsuKuH7qBJFFY1)
 
 ## References
 
-[Basic SVG shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)  
+[Basic SVG shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 
 [SVG Tutorial](https://www.w3schools.com/graphics/svg_intro.asp)
